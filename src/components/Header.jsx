@@ -17,7 +17,7 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'AITS', 'Contact'];
+const navItems = ['Home', 'About', 'AITS'];
 
 function Header(props) {
     const { window } = props;

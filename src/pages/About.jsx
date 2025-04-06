@@ -1,4 +1,5 @@
 import React from 'react'
+import { HoverEffect } from '../components/ui/HoverEffect'
 
 function About() {
     return (
@@ -16,6 +17,7 @@ function About() {
 
                     His expertise in React.js, JavaScript, and AI technologies has enabled him to build a chatbot that is not only efficient and scalable but also adaptable to various industries. Through GeniusAI, Shabir aims to revolutionize customer engagement and streamline digital interactions for businesses and users alike. <br /><br />
 
+                    <HoverEffect /><br />
 
                     <span className='text-xl text-white font-bold md:text-2xl lg:text-3xl'>Project GeniusAI</span><br />
                     In today’s fast-paced digital world, communication is key, and instant responses are essential. That’s where GeniusAI comes in—an advanced, AI-powered chatbot designed to provide seamless, engaging, and intelligent interactions. Whether it’s assisting customers, answering queries, or offering personalized recommendations, GeniusAI ensures real-time, meaningful conversations.<br /><br />

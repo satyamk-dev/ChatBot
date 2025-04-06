@@ -8,26 +8,26 @@ const items = [
         id: 1,
         name: "Shabir Ansari",
         image: "public/developer/Shabir.png",
-        designation: "AITS Student",
+        designation: "ChatBot Developer(Student)",
 
     },
     {
         id: 2,
         name: "Raghvendra Sharma",
         image: "public/teacher/mentor.png",
-        designation: "AITS Professor",
+        designation: "AITS Professor(CSE)",
     },
     {
         id: 3,
         name: "Dipanshu Mehta",
         image: "public/teacher/deepanshu.jpg",
-        designation: "AITS Professor",
+        designation: "AITS Professor(CSE)",
     },
     {
         id: 4,
         name: "Teena Rathore",
         image: "public/teacher/teena2.png",
-        designation: "AITS Professor",
+        designation: "AITS Professor(CSE)",
     },
     {
         id: 5,

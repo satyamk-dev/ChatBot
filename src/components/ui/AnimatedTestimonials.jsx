@@ -12,49 +12,49 @@ const testimonials = [
             "Our Chairman, N.L. Khetan Sir, is a guiding force and a visionary leader, whose dedication and foresight have been instrumental in shaping the institution's path to success.",
         name: "N.L. Khetan Sir",
         designation: "AITS Chairman",
-        src: "public/teacher/chairMan.png",
+        src: "teacher/chairMan.png",
     },
     {
         quote:
             "As Director of AITS Udaipur since 2009, Hemant Dhabhai spearheaded the institute's NAAC accreditation. He has supervised over 16 M.Tech scholars and holds four patents. With over 20 years of experience.",
         name: "Hemmant Dhabhai",
         designation: "AITS Director",
-        src: "public/teacher/director.png",
+        src: "teacher/director.png",
     },
     {
         quote:
             "Head of Department, is a visionary leader whose deep expertise and guidance continually inspire both faculty and students towards academic and professional excellence.",
         name: "Vinayak Metha",
         designation: "HOD(Computer Science)",
-        src: "public/teacher/vinayak.png",
+        src: "teacher/vinayak.png",
     },
     {
         quote:
             "Dedicated and experienced educator, known for her innovative teaching methods and commitment to student success",
         name: "Teena Rathore",
         designation: "AITS Professor",
-        src: "public/teacher/teena.png",
+        src: "teacher/teena.png",
     },
     {
         quote:
             "Inspiring Minds, Igniting Innovation, and Shaping the Future through Knowledge and Research",
         name: "Dipanshu Metha",
         designation: "AITS Professor",
-        src: "public/teacher/deepanshu.jpg",
+        src: "teacher/deepanshu.jpg",
     },
     {
         quote:
             "A Guiding Force in Academic Excellence and Mentorship, Empowering the Next Generation of Thinkers.",
         name: "Raghvendra Sharma",
         designation: "AITS Professor",
-        src: "public/teacher/mentor.png",
+        src: "teacher/mentor.png",
     },
     {
         quote:
             "A final year CSE student at AITS, driven by a passion for AI and technology, and committed to crafting impactful digital experiences",
         name: "Shabir Ansari",
         designation: "AITS Student",
-        src: "public/developer/Shabir.png",
+        src: "developer/Shabir.png",
     },
 ];
 
@@ -88,7 +88,7 @@ export const AnimatedTestimonials = ({
     };
     return (
         <div
-            className="mx-auto max-w-sm px-4 py-20 font-sans antialiased md:max-w-4xl md:px-8 lg:px-12">
+            className="mx-auto max-w-[80%] px-4 py-20 font-sans antialiased md:max-w-4xl md:px-8 lg:px-12">
             <div className="relative grid grid-cols-1 gap-20 md:grid-cols-2">
                 <div>
                     <div className="relative h-80 w-full">
@@ -129,7 +129,7 @@ export const AnimatedTestimonials = ({
                                         width={500}
                                         height={500}
                                         draggable={false}
-                                        className="h-full w-full rounded-3xl object-cover object-center" />
+                                        className="h-full max-w-[100%] rounded-3xl object-cover object-center" />
                                 </motion.div>
                             ))}
                         </AnimatePresence>

@@ -7,38 +7,38 @@ const items = [
     {
         id: 1,
         name: "Shabir Ansari",
-        image: "public/developer/Shabir.png",
+        image: "developer/Shabir.png",
         designation: "ChatBot Developer(Student)",
 
     },
     {
         id: 2,
         name: "Raghvendra Sharma",
-        image: "public/teacher/mentor.png",
+        image: "teacher/mentor.png",
         designation: "AITS Professor(CSE)",
     },
     {
         id: 3,
         name: "Dipanshu Mehta",
-        image: "public/teacher/deepanshu.jpg",
+        image: "teacher/deepanshu.jpg",
         designation: "AITS Professor(CSE)",
     },
     {
         id: 4,
         name: "Teena Rathore",
-        image: "public/teacher/teena2.png",
+        image: "teacher/teena2.png",
         designation: "AITS Professor(CSE)",
     },
     {
         id: 5,
         name: "Vinayak Mehta",
-        image: "public/teacher/vinayak.png",
+        image: "teacher/vinayak.png",
         designation: "AITS HOD(CSE)",
     },
     {
         id: 6,
         name: "Hemmant Dhabhai",
-        image: "public/teacher/director.png",
+        image: "teacher/director.png",
         designation: "AITS Director",
 
     },
@@ -106,7 +106,7 @@ export const Animated01 = () => {
                         width={100}
                         src={item.image}
                         alt={item.name}
-                        className="relative m-0 h-14 w-14 rounded-full border-2 border-white object-cover object-top p-0 transition duration-500 group-hover:z-30 group-hover:scale-105"
+                        className="relative m-0 h-10 w-10 rounded-full border-2 border-white object-cover object-top p-0 transition duration-500 group-hover:z-30 group-hover:scale-105"
                     />
 
                 </div>

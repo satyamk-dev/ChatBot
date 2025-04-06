@@ -56,7 +56,7 @@ export default function Input() {
 
 
 
-            <div className="flex justify-center items-center flex-col text-gray-200 ">
+            <div className=" flex justify-center items-center flex-col bg-neutral-800 h-full max-w-[100%] text-gray-200">
 
                 <div className='h-fit max-w-[80%] md:max-w-[60%]' >
 
@@ -66,7 +66,7 @@ export default function Input() {
                     )}
                     <hr className="border-2 border-gray-900 my-2 w-full" />
 
-                    <p className='text-sm md:text-md lg:text-lg'>{msg}</p>
+                    <p className='text-sm md:text-md lg:text-lg'>{msg}</p> <br /><br />
 
 
 
@@ -86,48 +86,51 @@ export default function Input() {
                 noValidate
                 autoComplete="off"
             >
+                <div className='flex justify-center items-center'>
 
-                <div className='w-fit h-fit bg-neutral-900 border border-white rounded-xl '>
-                    <div className=' flex justify-around items-baseline '>
-
-
-
-                        <TextField
-                            value={value}
-                            onChange={(e) => { setValue(e.target.value) }}
-                            id="filled-multiline-flexible"
-                            label="Ask AnyThing"
-                            multiline
-                            maxRows={4}
-                            variant="filled"
-                            sx={{ '& .MuiInputBase-input': { color: '#fff', }, '& .MuiInputLabel-root': { color: '#fff' } }}
+                    <div className=' bg-neutral-900 border border-white rounded-xl  max-w-[80%] md:max-w-[50%] '>
+                        <div className=' flex justify-around items-baseline '>
 
 
-                        />
 
-                        <Button
-                            variant="contained"
-                            onClick={handleInput}
-                            sx={{
-                                bgcolor: 'fuchsia',
-                                color: '#fff',
-                                borderRadius: '50px',
-                                Width: '30px',
-                                height: '30px',
-                                '&:hover': {
-                                    bgcolor: '#d400a7'
-                                }
-                            }}
-                        >
-                            <SendIcon sx={{ fontSize: '16px' }} />
-
-                        </ Button>
+                            <TextField
+                                value={value}
+                                onChange={(e) => { setValue(e.target.value) }}
+                                id="filled-multiline-flexible"
+                                label="Ask Anything"
+                                multiline
+                                maxRows={4}
+                                variant="filled"
+                                sx={{ '& .MuiInputBase-input': { color: '#fff', }, '& .MuiInputLabel-root': { color: '#fff' } }}
 
 
+                            />
+
+                            <Button
+                                variant="contained"
+                                onClick={handleInput}
+                                sx={{
+                                    bgcolor: 'fuchsia',
+                                    color: '#fff',
+                                    borderRadius: '50px',
+                                    Width: '30px',
+                                    height: '30px',
+                                    '&:hover': {
+                                        bgcolor: '#d400a7'
+                                    }
+                                }}
+                            >
+                                <SendIcon sx={{ fontSize: '16px' }} />
+
+                            </ Button>
+
+
+
+
+                        </div>
 
 
                     </div>
-
 
                 </div>
 

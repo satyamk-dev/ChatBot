@@ -6,16 +6,16 @@ import { motion, useTransform, AnimatePresence, useMotionValue, useSpring } from
 const items = [
     {
         id: 1,
-        name: "John Doe",
-        image: "public/img1.jpg",
+        name: "Shabir Ansari",
+        image: "public/developer/Shabir.png",
         designation: "Frontend Developer",
 
     },
     {
         id: 2,
-        name: "Jane Smith",
-        image: "public/img2.jpg",
-        designation: "UI Designer",
+        name: "Ragwender",
+        image: "public/teacher/mentor.png",
+        designation: "Professor",
     },
     {
         id: 3,
@@ -25,21 +25,21 @@ const items = [
     },
     {
         id: 4,
-        name: "Teena Rathor",
+        name: "Teena Rathore",
         image: "public/teacher/teena2.png",
         designation: "Professor",
     },
     {
         id: 5,
-        name: "Tom Brown",
-        image: "public/img3.jpg",
-        designation: "Backend Engineer",
+        name: "Vinayak Mehta",
+        image: "public/teacher/vinayak.png",
+        designation: "HOD",
     },
     {
         id: 6,
-        name: "John Doe",
-        image: "public/img1.jpg",
-        designation: "Frontend Developer",
+        name: "Hammant Dabai",
+        image: "public/teacher/director.png",
+        designation: "Director",
 
     },
 ];

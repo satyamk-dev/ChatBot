@@ -1,3 +1,4 @@
+/* Container */
 .slider-container {
     width: 100%;
     max-width: 960px;
@@ -6,12 +7,14 @@
     position: relative;
 }
 
+/* Swiper Styles */
 .my-swiper {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
+/* Slide */
 .slide-wrapper {
     position: relative;
     height: 450px;
@@ -32,7 +35,7 @@
     cursor: pointer;
 }
 
-/* Optional: If you ever use buttons again */
+/* Button inside slide */
 .slide-button {
     position: absolute;
     bottom: 20px;
@@ -54,28 +57,39 @@
     transform: scale(1.05);
 }
 
-/* Swiper arrows */
+/* Swiper Arrows */
 .swiper-button-next,
 .swiper-button-prev {
     color: white;
-
     padding: 12px;
     border-radius: 50%;
-    top: 55%;
+    top: 50%;
     transform: translateY(-50%);
     z-index: 20;
+
     transition: background 0.3s ease;
 }
 
-/* .swiper-button-next:hover,
-.swiper-button-prev:hover {} */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
 
-/* Hide arrows on small screens (optional) */
+/* Make sure arrows are always clickable and visible */
+.swiper-button-next,
+.swiper-button-prev {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+}
+
+/* Responsive tweaks */
 @media (max-width: 640px) {
 
     .swiper-button-next,
     .swiper-button-prev {
-        display: none;
+        display: none !important;
     }
 
     .slide-wrapper {

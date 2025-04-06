@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCreative, Navigation, Autoplay } from 'swiper/modules'; // ✅ added Autoplay
+import { EffectCreative, Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-creative';
 import 'swiper/css/navigation';
@@ -24,8 +24,8 @@ function Slider() {
                 grabCursor={true}
                 navigation={true}
                 autoplay={{
-                    delay: 3000, // 3 seconds between slides
-                    disableOnInteraction: false, // keeps autoplay even when user interacts
+                    delay: 3000,
+                    disableOnInteraction: false,
                 }}
                 creativeEffect={{
                     prev: {
@@ -36,13 +36,23 @@ function Slider() {
                         translate: ['100%', 0, 0],
                     },
                 }}
-                modules={[EffectCreative, Navigation, Autoplay]} // ✅ added Autoplay module here
+                modules={[EffectCreative, Navigation, Autoplay]}
                 className="my-swiper"
             >
                 {slides.map((imgSrc, index) => (
                     <SwiperSlide key={index}>
                         <div className="slide-wrapper">
-                            <img src={imgSrc} alt={`Slide ${index + 1}`} className="slide-image" />
+                            <img
+                                src={imgSrc}
+                                alt={`Slide ${index + 1}`}
+                                className="slide-image"
+                            />
+                            <button
+                                className="slide-button"
+                                onClick={() => alert(`Button on slide ${index + 1} clicked`)}
+                            >
+                                Learn More
+                            </button>
                         </div>
                     </SwiperSlide>
                 ))}

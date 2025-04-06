@@ -20,7 +20,7 @@ export default function StartBtn() {
                 </div>
                 <div>
 
-                    <Button href="https://github.com/Satyam6204" target="_blank" rel="noopener noreferrer" variant="outlined" size="medium" >
+                    <Button href="http://github.com/shabir6200" target="_blank" rel="noopener noreferrer" variant="outlined" size="medium" >
                         <span className=' text-fuchsia-600'>GeniusAI.</span>Code
                     </Button>
 

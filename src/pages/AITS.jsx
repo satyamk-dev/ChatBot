@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider from '../components/Slider'
+import { AnimatedTestimonials } from '../components/ui/AnimatedTestimonials'
 
 function AITS() {
     return (
@@ -10,9 +10,7 @@ function AITS() {
                     <h1>AITS</h1>
                 </div><br />
 
-                <div className=' flex justify-center items-center h-fit max-w-[100%]'>
-                    <Slider />
-                </div> <br /><br />
+
                 <div className='max-w-[80%] text-sm h-fit md:max-w-[80%] md:text-xl lg:max-w-[80%] text-blue-100'>
 
                     <span className=' text-3xl text-white font-bold md:text-4xl lg:text-5xl '>About College</span><br /> <br />
@@ -31,6 +29,8 @@ function AITS() {
                     <br /><br /> <br />
                 </div>
 
+
+                <AnimatedTestimonials />
 
 
             </div>

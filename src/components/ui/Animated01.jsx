@@ -8,38 +8,38 @@ const items = [
         id: 1,
         name: "Shabir Ansari",
         image: "public/developer/Shabir.png",
-        designation: "Frontend Developer",
+        designation: "AITS Student",
 
     },
     {
         id: 2,
-        name: "Ragwender",
+        name: "Raghvendra Sharma",
         image: "public/teacher/mentor.png",
-        designation: "Professor",
+        designation: "AITS Professor",
     },
     {
         id: 3,
-        name: "Deepanshu Mehta",
+        name: "Dipanshu Mehta",
         image: "public/teacher/deepanshu.jpg",
-        designation: "Professor",
+        designation: "AITS Professor",
     },
     {
         id: 4,
         name: "Teena Rathore",
         image: "public/teacher/teena2.png",
-        designation: "Professor",
+        designation: "AITS Professor",
     },
     {
         id: 5,
         name: "Vinayak Mehta",
         image: "public/teacher/vinayak.png",
-        designation: "HOD",
+        designation: "AITS HOD(CSE)",
     },
     {
         id: 6,
-        name: "Hammant Dabai",
+        name: "Hemmant Dhabhai",
         image: "public/teacher/director.png",
-        designation: "Director",
+        designation: "AITS Director",
 
     },
 ];

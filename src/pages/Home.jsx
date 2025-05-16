@@ -4,9 +4,10 @@ import IntoTitle from '../components/IntoTitle'
 function Home() {
     return (
         <>
+        <br /><br /><br />
 
             <IntoTitle />
-           
+
 
         </>
     )

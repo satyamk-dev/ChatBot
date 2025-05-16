@@ -52,10 +52,11 @@ const testimonials = [
     {
         quote:
             "A final year CSE student at AITS, driven by a passion for AI and technology, and committed to crafting impactful digital experiences",
-        name: "Shabir Ansari",
+        name: "Satyam Kumar",
         designation: "AITS Student",
-        src: "developer/Shabir.png",
+        src: "developer/Satyam.jpg",
     },
+
 ];
 
 

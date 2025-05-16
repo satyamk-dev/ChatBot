@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import { AnimatedTestimonials } from '../components/ui/AnimatedTestimonials'
 
 function AITS() {
@@ -35,6 +36,8 @@ function AITS() {
 
             </div>
 
+
+            <Footer />
         </>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { HoverEffect } from '../components/ui/HoverEffect'
+import Footer from '../components/Footer'
 
 function About() {
     return (
@@ -13,9 +14,9 @@ function About() {
 
 
                     <span className='text-3xl text-white font-bold md:text-4xl lg:text-5xl '>About the Creator</span><br />
-                    GeniusAI is the brainchild of Shabir, a B.Tech Computer Science Engineering (CSE) final-year student with a passion for artificial intelligence, machine learning, and web development. With a strong foundation in programming and a keen interest in AI-driven solutions, Shabir developed GeniusAI to bridge the gap between human interaction and intelligent automation.
+                    GeniusAI is the brainchild of Satyam, a B.Tech Computer Science Engineering (CSE) final-year student with a passion for artificial intelligence, machine learning, and web development. With a strong foundation in programming and a keen interest in AI-driven solutions, Satyam developed GeniusAI to bridge the gap between human interaction and intelligent automation.
 
-                    His expertise in React.js, JavaScript, and AI technologies has enabled him to build a chatbot that is not only efficient and scalable but also adaptable to various industries. Through GeniusAI, Shabir aims to revolutionize customer engagement and streamline digital interactions for businesses and users alike. <br /><br />
+                    His expertise in React.js, JavaScript, and AI technologies has enabled him to build a chatbot that is not only efficient and scalable but also adaptable to various industries. Through GeniusAI, Satyam aims to revolutionize customer engagement and streamline digital interactions for businesses and users alike. <br /><br />
 
                     <HoverEffect /><br />
 
@@ -76,6 +77,8 @@ function About() {
 
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

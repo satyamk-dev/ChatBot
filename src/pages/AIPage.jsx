@@ -1,4 +1,5 @@
 import React from 'react'
+
 import InputOutput from '../components/InputOutput'
 
 function AIPage() {

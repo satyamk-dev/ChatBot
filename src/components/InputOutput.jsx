@@ -8,6 +8,7 @@ import { GoogleGenAI } from "@google/genai";
 import { TypeAnimation } from 'react-type-animation';
 
 
+
 export default function Input() {
 
     const [value, setValue] = useState("");
@@ -136,7 +137,6 @@ export default function Input() {
 
 
             </Box>
-
 
 
         </>

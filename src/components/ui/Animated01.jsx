@@ -6,11 +6,12 @@ import { motion, useTransform, AnimatePresence, useMotionValue, useSpring } from
 const items = [
     {
         id: 1,
-        name: "Shabir Ansari",
-        image: "developer/Shabir.png",
+        name: "Satyam Kumar",
+        image: "developer/Satyam.jpg",
         designation: "ChatBot Developer(Student)",
 
     },
+
     {
         id: 2,
         name: "Raghvendra Sharma",

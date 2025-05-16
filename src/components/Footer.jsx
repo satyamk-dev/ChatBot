@@ -11,7 +11,6 @@ function Footer() {
         color: "white",
         py: 1,
         textAlign: "center",
-        position: "fixed",
         bottom: 0,
         width: "100%"
       }}
